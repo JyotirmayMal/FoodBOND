@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Open Forum</title>
+	<link rel="stylesheet" type="text/css" href="../../assets/forumstyle.css">
+</head>
+<body>
+	<h1>Open Forum</h1>
+
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" required></textarea>
+
+		<button type="submit" id="submit-btn">Submit</button>
+	</form>
+
+	<div id="feed-container">
+		<!-- Feeds will be dynamically added here using JavaScript -->
+		<div class="feed">
+			<div class="feed-header">
+				<p class="feed-name"><strong>Nick</strong></p>
+			</div>
+			<p class="feed-message">Welcome to the community</p>
+			<p class="feed-time">5 day ago</p>
+		</div>
+		_________________________________________________________
+		<div class="feed">
+			<div class="feed-header">
+				<p class="feed-name"><strong>Cherrie Smith</strong></p>	
+			</div>
+			<p class="feed-message">Twisted Tacos: Accidentally mixed cinnamon instead of cumin into the beef seasoning. Surprisingly, it gave a unique, sweetly spiced flavor to these unconventional tacos.
+				<br>Thank You !</p>
+			<p class="feed-time">1 day ago</p>
+		</div>
+		_________________________________________________________
+		<div class="feed">
+			<div class="feed-header">
+				<p class="feed-name"><strong>John Wick</strong></p>
+			</div>
+			<p class="feed-message">Chocolate Pasta Surprise: While attempting a savory pasta dish, cocoa powder found its way in, resulting in a curious but delightful chocolate-infused spaghetti, oddly satisfying with a hint of basil.</p>
+			<p class="feed-time">2 hours ago</p>
+		</div>
+		_________________________________________________________
+		<div class="feed">
+			<div class="feed-header">
+				<p class="feed-name"><strong>Pinta</strong></p>
+			</div>
+			<p class="feed-message">Upside-Down Pizza: Misread the recipe and ended up putting toppings under the cheese and sauce. This quirky mistake created a cheesy, saucy delight with hidden treasures underneath</p>
+			<p class="feed-time">4 hours ago</p>
+		</div>
+		_________________________________________________________
+		<div class="feed">
+			<div class="feed-header">
+				<p class="feed-name"><strong>Pooja</strong></p>
+			</div>
+			<p class="feed-message">What is the difference between synchronous and asynchronous programming?</p>
+			<p class="feed-time">16 hours ago</p>
+		</div>
+		_________________________________________________________
+		<div class="feed">
+			<div class="feed-header">
+				<p class="feed-name"><strong>Charlie</strong></p>
+			</div>
+			<p class="feed-message">Berry Chicken Curry: Mistook mixed berries for tomatoes in the chicken curry. The result was an unexpectedly fruity, tangy curry that surprisingly complemented the savory chicken.</p>
+			<p class="feed-time">18 hours ago</p>
+		</div>
+		_________________________________________________________
+		<div class="feed">
+			<div class="feed-header">
+				<p class="feed-name"><strong>Vike</strong></p>
+			</div>
+			<p class="feed-message">Salty Caramel Cake: Misjudged the salt quantity in the caramel sauce, leading to an intensely salty drizzle over the cake. Strangely, it balanced the sweetness and was a hit.</p>
+			<p class="feed-time">19 hours ago</p>
+		</div>
+	</div>
+
+	<script src="../../assets/forumscript.js"></script>
+</body>
+</html>
